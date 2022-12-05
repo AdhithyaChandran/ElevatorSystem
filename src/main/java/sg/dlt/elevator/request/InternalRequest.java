@@ -14,5 +14,6 @@ public class InternalRequest {
     public void processInternalRequest(List<Integer> request){
         ProcessRequest processRequest = new ProcessRequest();
         processRequest.processInternalRequest(request);
+
     }
 }
